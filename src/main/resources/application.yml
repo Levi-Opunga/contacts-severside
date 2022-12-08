@@ -1,0 +1,19 @@
+logging:
+  level:
+    org:
+      springframework:
+        jdbc : DEBUG
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/phonebook
+    password: root1234
+    username: login
+    generate-unique-name: false
+    name: blog
+server:
+  port: 8081
+
+
